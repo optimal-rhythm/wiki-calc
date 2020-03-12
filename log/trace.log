@@ -1,0 +1,69 @@
+INFO:root:Computing from 08 Feb 2020 04 to 08 Feb 2020 06
+INFO:luigi:logging configured by default settings
+INFO:luigi-interface:Informed scheduler that task   FindAllTopPages_2020_02_08T06_2020_02_08T04_67534209f1   has status   PENDING
+INFO:luigi-interface:Informed scheduler that task   FindTopPages_2020_02_08T06_https___dumps_wi_97beba08a3   has status   PENDING
+INFO:luigi-interface:Informed scheduler that task   GetHourlyData_https___dumps_wi_e23b051fbd   has status   PENDING
+INFO:luigi-interface:Informed scheduler that task   FindTopPages_2020_02_08T05_https___dumps_wi_2d05c0e0e6   has status   PENDING
+INFO:luigi-interface:Informed scheduler that task   GetHourlyData_https___dumps_wi_e8a1c02981   has status   PENDING
+INFO:luigi-interface:Informed scheduler that task   FindTopPages_2020_02_08T04_https___dumps_wi_7ae8d43f57   has status   PENDING
+INFO:luigi-interface:Informed scheduler that task   GetHourlyData_https___dumps_wi_87fc0fef91   has status   PENDING
+INFO:luigi-interface:Done scheduling tasks
+INFO:luigi-interface:Running Worker with 1 processes
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) running   GetHourlyData(url=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-060000.gz)
+INFO:root:Geting Hour Data for 2020-02-08 06:00:00
+INFO:root:Got data successfully
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) done      GetHourlyData(url=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-060000.gz)
+INFO:luigi-interface:Informed scheduler that task   GetHourlyData_https___dumps_wi_e23b051fbd   has status   DONE
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) running   FindTopPages(dt=2020-02-08T06, file=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-060000.gz)
+INFO:root:Getting top 25 for 2020-02-08 06:00:00
+INFO:root:6088 lines in blacklist
+INFO:root:0 lines caused an error
+INFO:root:4840630 lines read
+INFO:root:Done
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) done      FindTopPages(dt=2020-02-08T06, file=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-060000.gz)
+INFO:luigi-interface:Informed scheduler that task   FindTopPages_2020_02_08T06_https___dumps_wi_97beba08a3   has status   DONE
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) running   GetHourlyData(url=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-050000.gz)
+INFO:root:Geting Hour Data for 2020-02-08 05:00:00
+INFO:root:Got data successfully
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) done      GetHourlyData(url=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-050000.gz)
+INFO:luigi-interface:Informed scheduler that task   GetHourlyData_https___dumps_wi_e8a1c02981   has status   DONE
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) running   FindTopPages(dt=2020-02-08T05, file=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-050000.gz)
+INFO:root:Getting top 25 for 2020-02-08 05:00:00
+INFO:root:6006 lines in blacklist
+INFO:root:0 lines caused an error
+INFO:root:4700742 lines read
+INFO:root:Done
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) done      FindTopPages(dt=2020-02-08T05, file=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-050000.gz)
+INFO:luigi-interface:Informed scheduler that task   FindTopPages_2020_02_08T05_https___dumps_wi_2d05c0e0e6   has status   DONE
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) running   GetHourlyData(url=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-040000.gz)
+INFO:root:Geting Hour Data for 2020-02-08 04:00:00
+INFO:root:Got data successfully
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) done      GetHourlyData(url=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-040000.gz)
+INFO:luigi-interface:Informed scheduler that task   GetHourlyData_https___dumps_wi_87fc0fef91   has status   DONE
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) running   FindTopPages(dt=2020-02-08T04, file=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-040000.gz)
+INFO:root:Getting top 25 for 2020-02-08 04:00:00
+INFO:root:6296 lines in blacklist
+INFO:root:0 lines caused an error
+INFO:root:4694972 lines read
+INFO:root:Done
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) done      FindTopPages(dt=2020-02-08T04, file=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-040000.gz)
+INFO:luigi-interface:Informed scheduler that task   FindTopPages_2020_02_08T04_https___dumps_wi_7ae8d43f57   has status   DONE
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) running   FindAllTopPages(start_time=2020-02-08T04, end_time=2020-02-08T06)
+INFO:root:Top 25 computation complete
+INFO:luigi-interface:[pid 23484] Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) done      FindAllTopPages(start_time=2020-02-08T04, end_time=2020-02-08T06)
+INFO:luigi-interface:Informed scheduler that task   FindAllTopPages_2020_02_08T06_2020_02_08T04_67534209f1   has status   DONE
+INFO:luigi-interface:Worker Worker(salt=417316475, workers=1, host=WINDOWS-9V3K13T, username=aseth, pid=23484) was stopped. Shutting down Keep-Alive thread
+INFO:luigi-interface:
+===== Luigi Execution Summary =====
+
+Scheduled 7 tasks of which:
+* 7 ran successfully:
+    - 1 FindAllTopPages(start_time=2020-02-08T04, end_time=2020-02-08T06)
+    - 3 FindTopPages(dt=2020-02-08T04, file=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-040000.gz) ...
+    - 3 GetHourlyData(url=https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-040000.gz,https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-050000.gz,https://dumps.wikimedia.org/other/pageviews/2020/2020-02/pageviews-20200208-060000.gz)
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+INFO:root:Completed in 247.301417s
